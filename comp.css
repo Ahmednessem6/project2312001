@@ -1,0 +1,362 @@
+
+body {
+    overflow-x:hidden
+}
+
+
+
+nav {
+ 
+    border-radius:30px;
+    height:100px;
+    width:95%;
+  direction: rtl;
+   margin-left:2.5%;
+   margin-top:5px;
+   border :1px solid white;
+   box-shadow: 5px 5px 2px 0px black inset,5px 5px 2px 0px white inset;
+
+}
+
+nav ul{
+
+display:flex;
+margin:0 25%;
+
+}
+
+nav ul a{
+
+color:white;
+font-size:20px;
+box-shadow:5px 5px 5px 0 #000000 inset ;
+padding-right:20px;
+padding-left: 20px;
+text-decoration: none;
+
+}
+
+nav li{
+margin-right:70px;
+ margin-top:30px;
+    list-style: none;
+}
+
+nav ul a:hover  {
+
+animation:   anim_a_nav  7s 1;
+    color:wheat
+}
+.nav_text
+{
+font-size:30px;
+color:white;
+box-shadow: 4px 4px 20px  white inset;
+position: absolute;
+margin-top:20px;
+margin-right:15px;
+padding-right: 10px;
+padding-left: 10px;
+text-decoration: none;
+font-family: fantasy;
+}
+a:hover {
+
+    color:wheat
+}
+
+.sub_list1 
+{
+
+
+    display:block;
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    border:2px double white;
+border-radius: 15px;
+    width:120%;
+    color:black;
+margin-right:-40%;
+margin-top:15%;
+display:none;
+position: relative;
+
+}
+.main_list1:hover .sub_list1 {
+
+display:block;
+
+
+}
+.main_and_sub_list1:hover .sub_sub_list1
+{
+    display: block;
+}
+
+.sub_sub_list1{
+
+
+    font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    border:2px double white;
+border-radius: 15px;
+    width:100%;
+    color:black;
+margin-right:60%;
+margin-top:15%;
+height: fit-content;
+display:block;
+position: absolute;
+display: none;
+
+
+}
+
+ @keyframes anim_a_nav 
+ {
+
+0%
+{
+font-size:20px;
+
+
+}
+
+
+50%{
+
+font-size: 30px;
+background-color: white;
+}
+
+
+
+
+
+100%{
+font-size:20px
+
+}
+
+
+ }
+
+ @keyframes anim_div
+ {
+
+0%
+{
+    font-size:40px;
+    font-family:fantasty;
+    font-weight:700;
+
+}
+
+
+50%{
+    font-size:40px;
+    font-family:fantasty;
+    font-weight:1200;
+background-color: white;
+}
+
+
+
+
+
+100%{
+    font-size:40px;
+    font-family:fantasty;
+    font-weight:700;
+
+}
+
+
+ }
+
+
+ .cards_courses
+ {
+
+
+
+    background-color: black;
+    height: 400px;
+    width:100%;
+position: relative;
+
+ }
+ .card1
+ {
+border:2px solid white;
+height :250px;
+position:absolute;
+right:5%;
+width:25%
+
+ }
+ .rounded-circle center
+ {
+margin-top:25%;
+
+
+ }
+
+ .rounded-circle center h1{
+
+
+    color:wheat;
+ }
+center a{
+
+
+    transform: scaleX(1.3);
+
+    font-size:40px;
+color:black;
+
+
+background-color: white;
+}
+
+
+.courses_text
+{
+
+    font-size:40px;
+    font-family:fantasty;
+    font-weight:1200;
+background-color: ;
+display: block;
+animation:anim_div 15s infinite
+}
+
+
+
+
+.card2
+{
+
+    border:2px solid white;
+    height :250px;
+    position:absolute;
+    right:38%;
+    width:25%
+
+}
+.card3
+{
+
+
+    
+    border:2px solid white;
+    height :250px;
+    position:absolute;
+    
+    width:25%
+}
+
+
+.About
+{
+
+color:white;
+direction:rtl;
+margin-right:50px;
+font-family: cursive;
+margin-top:500px;
+
+height: 500px;
+width:80%;
+border-radius: 30px;
+margin-left:15%;
+font-size:40px;
+
+box-shadow:5px 5px 5px 0px white inset
+
+
+}
+.About span 
+
+{
+
+    animation:anim_about 5s infinite;
+}
+.About p
+{
+
+color:red ;
+font-size:25px
+
+}
+@keyframes anim_about {
+     
+    0% {
+
+color: white;
+font-size:40px;
+
+
+    }
+   50% 
+   {
+
+    color:white;
+    font-size:50px;
+  
+    padding-right: 15px;
+    padding-left: 15px;
+
+   }
+   100%
+   {
+    color:white;
+    font-size:40px
+ 
+   }
+}
+.footer h1{
+
+    animation: anim_footer 5s infinite;
+    font-size:60px;
+    color:white;
+    box-shadow: 4px 4px 20px  white inset;
+    position: absolute;
+    margin-top:20px;
+    margin-right:15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+  
+    font-family: fantasy;
+
+}
+@keyframes anim_footer {
+     
+    0% {
+      
+      color:white;
+      
+  
+    }
+   50% 
+   {
+   
+
+  color:wheat;
+   
+  
+   }
+   100%
+   {
+    color:white;
+    
+  
+    
+  
+  
+   }}
+  
+  
